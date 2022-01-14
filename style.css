@@ -1,0 +1,93 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('./assets/bg2.png')  ;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 90%;
+}
+
+.card-profile{
+    margin: 75px 60px 40px 60px;
+    padding: 20px 40px;
+    background-color: transparent;
+    border: solid 2px #C2C2C2 ;
+    border-radius: 15px;
+}
+
+.nav-item {
+    margin-left: 30px;
+}
+
+.nav-item a{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.content{
+    display: flex;  
+    margin-top: 100px ;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.left-content{
+    flex: 50%;
+    padding-top: 50px;
+}
+
+.right-content{
+    flex: 50%;
+    align-self: center;
+    text-align: center;
+}
+
+.right-content img {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.left-content button{
+    margin-top: 30px;
+    background-color: #07005E;
+    color: white;
+}
+
+.portfolio{
+    display: flex;
+    height: 100vh;
+    margin: 0px 60px ;
+    padding: 20px 40px;
+    border-radius: 15px;
+    justify-content: flex-end;
+}
+
+.left-portfolio{
+    flex: 40%;
+    align-self: center;
+}
+
+.right-portfolio{
+    flex: 60%;
+    display: flex;
+}
+
+.port-images{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.port-images > div{
+    flex: 50%; 
+    margin-bottom: 15px;
+}
+
+.port-images img{
+    max-width: 95%;
+    border-radius: 5px;   
+}
